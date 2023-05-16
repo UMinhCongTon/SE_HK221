@@ -1,0 +1,136 @@
+.mobileMes {
+  display: none;
+}
+.title {
+  flex: 100%;
+  font-family: "Faustina";
+  font-weight: bold;
+  font-size: 2em;
+  height: 45px;
+}
+
+.listContacts {
+  height: 80vh;
+  overflow-y: scroll;
+}
+
+.listContacts::-webkit-scrollbar {
+  display: none;
+}
+
+.currentContact {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid black;
+  padding-bottom: 10px;
+  .avatar {
+    width: 70px;
+    height: 70px;
+  }
+  .name {
+    font-family: "Inter";
+    font-weight: 600;
+    font-size: 1.5em;
+  }
+}
+
+.icon > * {
+  font-size: 2em;
+  color: #beffa7;
+  border: black;
+  margin-right: 10px;
+  stroke: black;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.icon > * :hover {
+  color: red;
+}
+
+.mainChat {
+  height: 70vh;
+  overflow-y: scroll;
+  padding: 10px;
+  align-content: none;
+  .clusterMessage {
+    height: fit-content;
+    margin-bottom: 10px;
+    .cluster {
+      margin: 0;
+      width: 60%;
+    }
+    .avatar {
+      content: "";
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      background-color: red;
+      margin-right: 5px;
+    }
+    .message {
+      margin: 1px;
+      display: flex;
+      align-items: center;
+      border: 1px solid black;
+      border-radius: 15px;
+      max-width: 95%;
+      white-space: pre-wrap;
+      overflow-wrap: anywhere;
+      line-height: normal;
+      background-color: #dadada;
+    }
+  }
+  .myMessage > *,
+  .myMessage > * > * > * {
+    justify-content: flex-end;
+    .message {
+      background-color: #f7ffe0;
+    }
+  }
+  .timeLine {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    justify-content: center;
+    color: #00000080;
+  }
+}
+
+.mainChat::-webkit-scrollbar {
+  display: none;
+}
+
+.functionBar {
+  height: 6vh;
+  display: flex;
+  align-items: center;
+}
+
+.formButton {
+  font-size: 2em;
+  color: #d9d9d9;
+  border-radius: 50%;
+  background-color: #beffa7;
+  stroke: black;
+}
+
+.formButton:hover {
+  background-color: red;
+}
+
+@media all and (max-width: 739px) {
+  .desktopMes {
+    display: none;
+  }
+  .mobileMes {
+    display: block;
+  }
+  .title {
+    display: none;
+  }
+  .searchInput {
+    margin-top: 25px;
+  }
+}

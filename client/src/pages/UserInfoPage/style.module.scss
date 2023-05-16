@@ -1,0 +1,73 @@
+.banner {
+  height: 300px;
+}
+.body {
+  padding-bottom: 40px;
+  .bodyInfo {
+    position: relative;
+    .bodyInfoTop {
+      position: relative;
+      .bodyInfoTopImg {
+        position: absolute;
+        top: -45px;
+        left: 0;
+        width: 90px;
+        height: 90px;
+      }
+      p {
+        position: absolute;
+        top: 0;
+        left: 110px;
+        font-family: "Faustina";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 26px;
+        color: #000000;
+      }
+    }
+    .bodyInfoBottom {
+      margin-top: 80px;
+      border: 2px solid #999;
+      border-radius: 20px;
+      padding: 20px;
+      p {
+        font-family: "Faustina";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        color: #000000;
+        margin-bottom: 5px;
+      }
+    }
+  }
+  .bodyHistory {
+      .history {
+      margin-top: 50px;
+      border: 2px solid #999;
+      border-radius: 20px;
+      padding: 20px;
+      p {
+        font-family: "Faustina";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        color: #000000;
+        margin-bottom: 5px;
+      }
+    }
+    .other {
+      border: 2px solid #999;
+      border-radius: 20px;
+      padding: 20px;
+      margin-top: 50px;
+      p {
+        font-family: "Faustina";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        color: #000000;
+        margin-bottom: 5px;
+      }
+    }
+  }
+}

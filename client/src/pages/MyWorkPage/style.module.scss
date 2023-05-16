@@ -1,0 +1,110 @@
+@import url("https://cdn.syncfusion.com/ej2/material.css");
+.container_body {
+    margin-top: 100px;
+}
+
+.task_table {
+    border: 1px solid black;
+    border-radius: 20px;
+    height: 70vh;
+    .title {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 2em;
+        font-weight: bold;
+        font-family: 'Faustina';
+        color: aliceblue;
+        background-color: #00CB39;
+        border-radius: 20px;
+        height: 2.3em;
+    }
+}
+
+.task_scroll {
+    height: 54vh;
+    overflow-y: scroll;
+}
+
+.task_container:hover {
+    .task_name {
+        color: #07DB03;
+        text-decoration: dashed;
+    }
+}
+
+.task_container {
+    border-bottom: 1pt solid black;
+    font-family: 'Faustina';
+}
+
+.task_name {
+    font-size: 2em;
+    font-weight: 500;
+    padding-left: 5%;
+}
+
+.task_time {
+    font-size: 0.8em;
+    font-weight: 100;
+    padding-left: 5%;
+}
+
+.task_assign {
+    font-size: 0.8em;
+    font-weight: 100;
+    text-align: right;
+}
+
+.buttoncontainer {
+    height: 7vh;
+    top: 50%
+}
+
+.button {
+    margin-top: 3%;
+    margin-left: 5%;
+}
+
+.activebutton {
+    background-color: #07DB03;
+    border: none;
+    color: #1565b5;
+    padding: 12px 30px;
+    text-align: center;
+    font-size: 1.2em;
+    font-family: 'Faustina';
+    border-radius: 25px;
+}
+
+.nonactivebutton {
+    color: #373837;
+    border: none;
+    padding: 12px 30px;
+    text-align: center;
+    font-size: 1.2em;
+    font-family: 'Faustina';
+    border-radius: 25px;
+}
+
+.nonactivebutton :hover {
+    background-color: #4d764c;
+}
+
+.workdetail {
+    font-size: 1.2em;
+    font-family: 'Faustina';
+    padding-left: 7%;
+}
+
+.updatebutton {
+    background-color: #07DB03;
+    border: 1px solid black;
+    color: #1565b5;
+    border-radius: 25px;
+}
+
+.quicktask :hover {
+    color: #07DB03;
+    text-decoration: dashed;
+}

@@ -1,0 +1,50 @@
+.headerOfJanitor {
+  background-color: #beffa7;
+  .headerOfJanitorLogo {
+    width: 40px;
+    height: 41px;
+  }
+  .headerOfJanitorLink {
+    margin-left: 25px;
+    text-decoration: none;
+    font-family: "Faustina";
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #808080;
+    border-bottom: 1px solid #999;
+  }
+  .headerLinkIcon {
+    display: block;
+    width: 40px;
+    height: 40px;
+    margin-right: 25px;
+  }
+}
+.header {
+  background-color: #beffa7;
+  .headerLogo {
+    width: 40px;
+    height: 41px;
+  }
+  .headerLink {
+    margin-left: 25px;
+    text-decoration: none;
+    font-family: "Faustina";
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #808080;
+  }
+  .headerLinkIcon {
+    display: block;
+    width: 25px;
+    height: 25px;
+    margin-right: 20px;
+  }
+  .menuDropdown {
+    inset: 34px auto auto -65px !important;
+  }
+}
